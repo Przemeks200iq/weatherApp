@@ -27,10 +27,37 @@ body {
 #country {
     border: none;
     font-family: "Open Sans", sans-serif;
+    background-color: #00ffff;
     border-bottom: solid 2px #000;
 }
 
 #country:focus {
     outline: none;
     border-bottom: solid 2px #00aaff;
+}
+
+#condition {
+    width: 128px;
+    height: 128px;
+}
+
+.img__container {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: 600;
+}
+
+.block {
+    display: block;
+}
+
+#p__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    margin-top: 0;
+    margin-bottom: 0;
 }
