@@ -6,6 +6,7 @@ const container = document.querySelector("#img__container");
 input.addEventListener("keypress", (e) => {
     if (e.key === "Enter") {
         setInformation();
+        container.style.opacity = 0;
     }
 });
 
@@ -13,6 +14,7 @@ const setInformation = async () => {
     if (input.value !== "") {
         const information = await getInformation(input.value);
         if (information.error !== undefined) {
+            container.style.opacity = 1;
             if (information.error.code === 1006) {
                 container.innerHTML =
                     '<span style="color: red; margin-top: 30px;">Invalid name of country</span>';
