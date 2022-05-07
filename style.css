@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: "Open Sans", sans-serif;
-    color: white;
+    color: #000;
 }
 
 .container {
@@ -85,4 +85,8 @@ body {
 
 .green {
     color: #00cd00;
+}
+
+h1 {
+    color: #fff;
 }
