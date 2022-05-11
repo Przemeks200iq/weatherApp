@@ -18,6 +18,7 @@ body {
     flex-direction: column;
     font-family: "Open Sans", sans-serif;
     color: #000;
+    background-color: #303030;
 }
 
 .container {
