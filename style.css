@@ -43,6 +43,10 @@ body {
     border-bottom: solid 2px #1fae70;
 }
 
+#country::placeholder {
+    text-align: center;
+}
+
 #condition {
     width: 128px;
     height: 128px;
