@@ -36,15 +36,12 @@ body {
 
 #country::placeholder {
     color: #000;
+    text-align: center;
 }
 
 #country:focus {
     outline: none;
     border-bottom: solid 2px #1fae70;
-}
-
-#country::placeholder {
-    text-align: center;
 }
 
 #condition {
